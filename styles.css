@@ -1,0 +1,103 @@
+/* General styles */
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+}
+
+/* Header styles */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.hero-text {
+	
+	margin-top: 100px;
+}
+
+.hero-text h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+
+
+section {
+	padding: 50px;
+}
+
+.about, .portfolio, .contact {
+	margin-bottom: 50px;
+}
+
+.about h2, .portfolio h2, .contact h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.skill h2{
+	text-align: left;
+} 
+
+
+.portfolio ul {
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.portfolio li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.portfolio img {
+	max-width: 100%;
+	height: auto;
+}
+
+.contact input, .contact textarea {
+	display: block;
+	margin-bottom: 10px;
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+.contact textarea {
+	height: 150px;
+}
+
+p{
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+footer p{
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+  }
